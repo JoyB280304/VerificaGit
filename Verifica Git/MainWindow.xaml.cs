@@ -20,9 +20,32 @@ namespace Verifica_Git
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Libro> _libri;
+        private Biblioteca _biblioteca;
+
         public MainWindow()
         {
             InitializeComponent();
+            _libri = new List<Libro>();
+            _biblioteca = new Biblioteca("nome", "indirizzo", "8:00", "20:00", _libri);
         }
+
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Libro l = new Libro(txbTitolo.Text, txbAutore.Text, txbEditore.Text, int.Parse(txbPagine.Text), int.Parse(txbEditore.Text));
+
+            _libri.Add(l);
+        }
+
+        public void RiempiLista(List<Libro> lista)
+        {
+            foreach (Libro libro in lista)
+            {
+                lsbLibri.Items.Add(libro);
+            }
+        }
+
+        
     }
 }

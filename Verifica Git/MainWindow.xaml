@@ -7,6 +7,34 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnAdd" Content="AGGIUNGI" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top" Width="130" Height="45" FontSize="16" Click="btnAdd_Click"/>
+        <ListBox x:Name="lsbLibri" HorizontalAlignment="Left" Height="399" Margin="259,10,0,0" VerticalAlignment="Top" Width="288"/>
+
+        <TextBox x:Name="txbTitolo" HorizontalAlignment="Left" Height="35" Margin="124,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <TextBox x:Name="txbAutore" HorizontalAlignment="Left" Height="35" Margin="124,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <TextBox x:Name="txbEditore" HorizontalAlignment="Left" Height="35" Margin="124,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <TextBox x:Name="txbPagine" HorizontalAlignment="Left" Height="35" Margin="124,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+        <TextBox x:Name="txbAnno" HorizontalAlignment="Left" Height="35" Margin="124,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" FontSize="16"/>
+
+        <Label Content="Titolo" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label Content="Autore" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label Content="Editore" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label Content="Pagine" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label Content="Anno" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+
+        <Label Content="N Libri: " HorizontalAlignment="Left" Margin="552,10,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label x:Name="lblNLibri" Content="" HorizontalAlignment="Left" Margin="666,10,0,0" VerticalAlignment="Top" Height="35" Width="116" FontSize="16"/>
+
+        <Button Content="CERCA" HorizontalAlignment="Left" Margin="552,364,0,0" VerticalAlignment="Top" Width="130" Height="45" FontSize="16"/>
         
+        <Label Content="Biblioteca: " HorizontalAlignment="Left" Margin="552,50,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label x:Name="lblNomeBiblioteca" Content="" HorizontalAlignment="Left" Margin="666,50,0,0" VerticalAlignment="Top" Height="35" Width="116" FontSize="16"/>
+
+        <Label Content="Apertura: " HorizontalAlignment="Left" Margin="552,90,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label x:Name="lblApertura" Content="" HorizontalAlignment="Left" Margin="666,90,0,0" VerticalAlignment="Top" Height="35" Width="116" FontSize="16"/>
+        
+        <Label Content="Chiusura: " HorizontalAlignment="Left" Margin="552,130,0,0" VerticalAlignment="Top" Width="109" Height="35" FontSize="16"/>
+        <Label x:Name="lblChiusura" Content="" HorizontalAlignment="Left" Margin="666,130,0,0" VerticalAlignment="Top" Height="35" Width="116" FontSize="16"/>
+
     </Grid>
 </Window>
