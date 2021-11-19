@@ -23,7 +23,7 @@ namespace Verifica_Git
         private List<Libro> _libri;
         private Biblioteca _biblioteca;
 
-        public MainWindow()
+        public MainWindow() //MODIFICA DA GITHUB
         {
             InitializeComponent();
             _libri = new List<Libro>();
