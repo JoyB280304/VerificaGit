@@ -25,6 +25,7 @@ namespace Verifica_Git
 
         public MainWindow()
         {
+<<<<<<< HEAD
             InitializeComponent();
             _libri = new List<Libro>();
             _biblioteca = new Biblioteca("nome", "indirizzo", "8:00", "20:00", _libri);
@@ -45,6 +46,9 @@ namespace Verifica_Git
             {
                 lsbLibri.Items.Add(libro);
             }
+=======
+            InitializeComponent(); //
+>>>>>>> Libro
         }
     }
 }
