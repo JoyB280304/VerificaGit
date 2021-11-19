@@ -22,7 +22,7 @@ namespace Verifica_Git
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); //
         }
     }
 }
