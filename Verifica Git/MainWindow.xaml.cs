@@ -26,6 +26,7 @@ namespace Verifica_Git
         public MainWindow()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitializeComponent();
             _libri = new List<Libro>();
             _biblioteca = new Biblioteca("nome", "indirizzo", "8:00", "20:00", _libri);
@@ -49,6 +50,9 @@ namespace Verifica_Git
 =======
             InitializeComponent(); //
 >>>>>>> Libro
+=======
+            InitializeComponent();  //biblioteca
+>>>>>>> biblioteca
         }
     }
 }
